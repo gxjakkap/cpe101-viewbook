@@ -3,9 +3,9 @@ import GridPattern from "../ui/grid-pattern"
 
 export default function Week6() {
     return (
-        <section className="relative min-h-screen w-full bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-[#0d1a2d] from-40% via-[#531f61] via-55% to-[#0d1a2d] to-65% text-neutral-100 flex flex-col gap-y-8 pt-16 px-8 lg:p-20">
+        <section id="week6" className="relative min-h-screen w-full bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-[#0d1a2d] from-40% via-[#531f61] via-55% to-[#0d1a2d] to-65% text-neutral-100 flex flex-col gap-y-8 pt-16 px-8 lg:p-20">
             <div className="z-10 whitespace-pre-wrap">
-                <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-left redhat-medium scroll-mt-14" id="week6">
+                <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-left redhat-medium scroll-mt-14">
                     Week 6: Application Design
                 </h1>
                 <div className="flex flex-col gap-y-8 lg:gap-y-4 items-center mx-auto lg:mt-4 lg:items-start py-2">

@@ -1,7 +1,7 @@
 export default function Week4() {
     return (
-        <section className="min-h-screen w-full bg-gradient-to-br from-zinc-100 from-40% via-[#e0fef8] via-65% to-zinc-100 to-70% text-slate-900 flex flex-col gap-y-8 pt-16 px-8 lg:p-20">
-            <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-left redhat-medium scroll-mt-14" id="week4">
+        <section id="week4" className="min-h-screen w-full bg-gradient-to-br from-zinc-100 from-40% via-[#e0fef8] via-65% to-zinc-100 to-70% text-slate-900 flex flex-col gap-y-8 pt-16 px-8 lg:p-20">
+            <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-left redhat-medium">
                 Week 4: Basic Embedding System 🧑🏼‍🔧
             </h1>
             <div className="flex flex-col gap-y-8 lg:gap-y-4 items-center mx-auto lg:items-start py-2">

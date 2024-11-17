@@ -1,7 +1,7 @@
 export default function Week2() {
     return (
-        <section className="min-h-screen w-full bg-gradient-to-br from-zinc-100 from-60% via-[#ffe6ee] via-85% to-zinc-100 to-90% text-slate-900 flex flex-col gap-y-8 pt-16 px-8 lg:p-20">
-            <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-left redhat-medium scroll-mt-14" id="week2">
+        <section id="week2" className="min-h-screen w-full bg-gradient-to-br from-zinc-100 from-60% via-[#ffe6ee] via-85% to-zinc-100 to-90% text-slate-900 flex flex-col gap-y-8 pt-16 px-8 lg:p-20 lg:scroll-mt-[-50px]">
+            <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-left redhat-medium">
                 Week 2: Working Foundation📝
             </h1>
             <div className="flex flex-col gap-y-8 lg:gap-y-4 items-center mx-auto lg:items-start py-2">

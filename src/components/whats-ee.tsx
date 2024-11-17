@@ -1,6 +1,6 @@
 export default function WhatsEE() {
     return (
-        <section className="min-h-screen w-full from-[#ECE9E6] to-white flex flex-col relative">
+        <section className="min-h-screen w-full from-[#ECE9E6] to-white flex flex-col relative" id="intro">
             {/* Background Image */}
             <div className="absolute inset-0">
                 <img

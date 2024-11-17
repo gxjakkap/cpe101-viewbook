@@ -6,7 +6,7 @@ import 'swiper/css'
 
 export default function MainSection() {
     return (
-        <section className="h-screen w-full">
+        <section className="h-screen w-full" id="hero">
             <div className="relative w-screen h-screen bg-black text-white">
                 <div className="absolute inset-0 bg-cover bg-center">
                     <Swiper
