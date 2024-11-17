@@ -4,7 +4,7 @@ import { Autoplay } from 'swiper/modules'
 // @ts-ignore
 import 'swiper/css'
 
-export default function MainSection() {
+export default function Hero() {
     return (
         <section className="h-screen w-full" id="hero">
             <div className="relative w-screen h-screen bg-black text-white">
