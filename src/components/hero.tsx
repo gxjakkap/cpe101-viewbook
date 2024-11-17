@@ -3,6 +3,7 @@ import { Autoplay } from 'swiper/modules'
 
 // @ts-ignore
 import 'swiper/css'
+import Meteors from './ui/meteors'
 
 export default function Hero() {
     return (
@@ -34,6 +35,7 @@ export default function Hero() {
                     </Swiper>
                 </div>
                 <div className="relative flex flex-col z-10 h-full pt-8 pb-32 lg:p-12 lg:pb-48 xl:p-12">
+                    <Meteors number={50} />
                     <div className="m-auto">
                         <h1 className="text-5xl lg:text-6xl redhat-medium text-center">CPE101:</h1>
                         <h2 className="text-2xl lg:text-4xl redhat-bold text-center">Engineering Exploration</h2>
@@ -41,6 +43,7 @@ export default function Hero() {
                         <p className="text-lg lg:text-xl inter-regular text-center text-gray-200 mt-6">Made by B01</p>
                     </div>
                     <p className="text-lg lg:text-xl inter-regular text-center">Scroll down to <span className="ml-2 text-base lg:text-lg press-start-2p-regular">Get Started!</span></p>
+                    
                 </div>
             </div>
         </section>

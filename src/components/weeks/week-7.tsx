@@ -1,12 +1,12 @@
 import { cn } from "@/lib/utils"
 import GridPattern from "../ui/grid-pattern"
 
-export default function Week6() {
+export default function Week7() {
     return (
-        <section id="week6" className="relative min-h-screen pb-4 lg:pb-0 w-full bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-[#0d1a2d] from-50% via-[#51235e] via-55% to-[#0d1a2d] to-65% text-neutral-100 flex flex-col gap-y-8 pt-16 px-8 lg:p-20">
+        <section id="week7" className="relative min-h-screen pb-4 lg:pb-0 w-full bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-[#0d1a2d] from-50% via-[#51235e] via-55% to-[#0d1a2d] to-65% text-neutral-100 flex flex-col gap-y-8 pt-16 px-8 lg:p-20">
             <div className="flex flex-col z-10 whitespace-pre-wrap">
                 <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-left redhat-medium scroll-mt-14">
-                    Week 6: Application Design
+                    Week 7: Happy Coding 👨🏼‍💻😸
                 </h1>
                 <div className="flex flex-col gap-y-8 lg:gap-y-4 items-center mx-auto lg:mt-4 lg:items-start py-2">
                     <div className="flex flex-col-reverse w-full lg:flex-row gap-x-12 gap-y-4 lg:gap-y-0">

@@ -1,35 +1,3 @@
-/* import { useState, useEffect } from "react"
-
-
-import MainSection from "./components/main"
-import WhatsEE from "./components/whats-ee"
-import Week1 from "./components/weeks/week-1"
-import Week2 from "./components/weeks/week-2"
-import Week3 from "./components/weeks/week-3"
-import Week4 from "./components/weeks/week-4"
-import Week5 from "./components/weeks/week-5"
-import Week6 from "./components/weeks/week-6"
-
-function App() {
-    return (
-        <div className="min-h-screen w-full">
-            <Element>
-
-            </Element>
-            <WhatsEE />
-            <Week1 />
-            <Week2 />
-            <Week3 />
-            <Week4 />
-            <Week5 />
-            <Week6 />
-        </div>
-    )
-}
-
-export default App
- */
-
 import { useState, useEffect } from "react"
 
 import Hero from "./components/hero"
@@ -40,6 +8,7 @@ import Week3 from "./components/weeks/week-3"
 import Week4 from "./components/weeks/week-4"
 import Week5 from "./components/weeks/week-5"
 import Week6 from "./components/weeks/week-6"
+import Week7 from "./components/weeks/week-7"
 
 function App() {
     const sectionIds = [
@@ -51,6 +20,7 @@ function App() {
         "week4",
         "week5",
         "week6",
+        "week7"
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -110,6 +80,7 @@ function App() {
             <Week4 />
             <Week5 />
             <Week6 />
+            <Week7 />
         </div>
     )
 }
