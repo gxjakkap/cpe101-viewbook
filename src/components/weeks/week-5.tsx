@@ -19,12 +19,12 @@ export default function Week5() {
                             </p>
                         </div>
                         <div className="flex flex-col gap-y-1">
-                            <img className="max-h-[250px] object-contain drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week5/IMG_2220_be7u7y.jpg"/>
+                            <img className="max-h-[250px] object-contain rounded-md drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week5/IMG_2220_be7u7y.jpg"/>
                         </div>
                     </div>
                     <div className="flex flex-col-reverse w-full lg:flex-row gap-x-12 gap-y-4 lg:gap-y-0">
                         <div className="flex flex-col gap-y-1">
-                            <img className="max-h-[250px] object-contain drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week5/firefox_UwBC9mBFyQ_wyvina.png"/>
+                            <img className="max-h-[250px] object-contain rounded-md drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week5/firefox_UwBC9mBFyQ_wyvina.png"/>
                             <p className="caveat-medium text-zinc-200 text-xl text-center">What Teachable Machine look like</p>
                         </div>
                         <div className="flex flex-col gap-y-3 lg:mt-4 max-w-screen-md inter-regular">

@@ -1,14 +1,11 @@
 export default function Week2() {
     return (
-        <section id="week2" className="min-h-screen pb-4 lg:pb-0 w-full bg-gradient-to-br from-zinc-100 from-60% via-[#ffe6ee] via-85% to-zinc-100 to-90% text-slate-900 flex flex-col gap-y-8 pt-16 px-8 lg:p-20 lg:scroll-mt-[-50px]">
+        <section id="week2" className="min-h-screen w-full bg-gradient-to-br from-zinc-100 from-60% via-[#ffe6ee] via-85% to-zinc-100 to-90% text-slate-900 flex flex-col gap-y-8 pt-16 px-8 lg:p-20 lg:scroll-mt-[-50px] pb-4 lg:pb-14">
             <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-left redhat-medium">
                 Week 2: Working Foundation📝
             </h1>
             <div className="flex flex-col gap-y-8 lg:gap-y-4 items-center mx-auto lg:items-start py-2">
                 <div className="flex flex-col-reverse w-full lg:flex-row gap-x-12 gap-y-4 lg:gap-y-0">
-                    {/* <p className="text-lg lg:text-2xl text-left lg:pt-3 inter-regular lg:mt-6 max-w-screen-md">
-                        &nbsp;&nbsp;&nbsp;&nbsp;In this class, we learnt about the foundation of working. Particularly on setting plans and project management. We also learnt about <span className="font-bold">action plan</span>. We're then assigned to come up with an action plan about affiliate marketing, make a presentation about it, then come present it to the whole class.
-                    </p> */}
                     <div className="flex flex-col gap-y-3 max-w-screen-md inter-regular">
                         <p className="italic text-lg lg:text-xl text-left">
                             &nbsp;&nbsp;&nbsp;&nbsp;“Plans are for the present and future! Why do you even make a plan after you have done it?”
