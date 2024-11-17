@@ -36,7 +36,7 @@ export default function Hero() {
                 <div className="relative flex flex-col z-10 h-full pt-8 pb-32 lg:p-12 lg:pb-48 xl:p-12">
                     <div className="m-auto">
                         <h1 className="text-5xl lg:text-6xl redhat-medium text-center">CPE101:</h1>
-                        <h2 className="text-2xl lg:text-4xl redhat-medium text-center">Engineering Exploration</h2>
+                        <h2 className="text-2xl lg:text-4xl redhat-bold text-center">Engineering Exploration</h2>
                         <p className="text-lg lg:text-xl inter-regular text-center text-gray-200 mt-6">A brief introduction to most of Computer Engineering principles. Here's what we experienced this year as a freshmen in this course.</p>
                         <p className="text-lg lg:text-xl inter-regular text-center text-gray-200 mt-6">Made by B01</p>
                     </div>

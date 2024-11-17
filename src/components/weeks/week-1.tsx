@@ -1,10 +1,10 @@
 export default function Week1() {
     return (
-        <section id="week1" className="min-h-screen w-full bg-gradient-to-br from-[#ECE9E6] from-70% via-blue-100 via-75% to-white to-85% text-slate-900 flex flex-col gap-y-8 pt-16 px-8 lg:p-20 lg:scroll-mt-[-60px] pb-4 lg:pb-16">
+        <section id="week1" className="min-h-screen w-full bg-gradient-to-br from-[#ECE9E6] from-70% via-blue-100 via-75% to-white to-85% text-slate-900 flex flex-col gap-y-8 pt-16 px-8 lg:p-20 lg:scroll-mt-[-60px] 2xl:scroll-mt-0 pb-4 lg:pb-16">
             <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-right redhat-medium">
                 Week 1: What does an engineer do? ⚙️🦺
             </h1>
-            <div className="flex flex-col gap-y-8 lg:gap-y-4 items-center mx-auto lg:items-start py-2">
+            <div className="flex flex-col gap-y-8 lg:gap-y-8 items-center mx-auto lg:items-start py-2">
                 <div className="flex flex-col w-full lg:flex-row gap-x-12 gap-y-4 lg:gap-y-0">
                     <div className="flex flex-col gap-y-3 max-w-screen-md inter-regular">
                         <p className="text-lg xl:text-xl text-left">
