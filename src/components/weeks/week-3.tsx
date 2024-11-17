@@ -7,7 +7,7 @@ export default function Week3() {
             <div className="flex flex-col gap-y-8 lg:gap-y-4 items-center mx-auto lg:items-start py-2">
                 <div className="flex flex-col-reverse w-full lg:flex-row gap-x-12 gap-y-4 lg:gap-y-0">
                     <div className="flex flex-col gap-y-2 lg:gap-y-4">
-                        <img className="lg:max-h-[300px] object-contain rounded-md drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week3/IMG_0406-cropped_h5wx1u.jpg"/>
+                        <img className="lg:max-h-[370px] object-contain rounded-md drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week3/IMG_0406-cropped_h5wx1u.jpg"/>
                     </div>
                     <p className="text-lg lg:text-2xl text-left lg:pt-3 inter-regular lg:mt-6 max-w-screen-md">
                         

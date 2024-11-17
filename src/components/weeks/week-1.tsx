@@ -7,7 +7,7 @@ export default function Week1() {
             <div className="flex flex-col gap-y-8 lg:gap-y-4 items-center mx-auto lg:items-start py-2">
                 <div className="flex flex-col w-full lg:flex-row gap-x-12 gap-y-4 lg:gap-y-0">
                     <div className="flex flex-col gap-y-3 max-w-screen-md inter-regular">
-                        <p className="text-lg lg:text-xl text-left">
+                        <p className="text-lg xl:text-xl text-left">
                             <span className="font-bold">Sorting hat:</span> <span className="italic">"Hmm. Difficult. Very difficult. Plenty of courage, I see. Not a bad mind either. There's talent, oh my goodness, yes — and a nice thirst to prove yourself, now that's interesting... So where shall I put you?"</span> sorting hat mumbling to me
                         </p>
                         <p className="italic text-lg lg:text-xl text-left">
