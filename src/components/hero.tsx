@@ -7,7 +7,7 @@ import Meteors from './ui/meteors'
 
 export default function Hero() {
     return (
-        <section className="h-screen w-full" id="hero">
+        <section className="h-screen w-full relative z-0" id="hero">
             <div className="relative w-screen h-screen bg-black text-white">
                 <div className="absolute inset-0 bg-cover bg-center">
                     <Swiper
@@ -34,7 +34,7 @@ export default function Hero() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-                <div className="relative flex flex-col z-10 h-full pt-8 pb-32 lg:p-12 lg:pb-48 xl:p-12">
+                <div className="relative flex flex-col z-10 h-full overflow-x-hidden pt-8 pb-32 lg:p-12 lg:pb-48 xl:p-12">
                     <Meteors number={50} />
                     <div className="m-auto">
                         <h1 className="text-5xl lg:text-6xl redhat-medium text-center">CPE101:</h1>
