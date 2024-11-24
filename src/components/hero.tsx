@@ -7,8 +7,8 @@ import Meteors from './ui/meteors'
 
 export default function Hero() {
     return (
-        <section className="h-screen w-full relative z-0" id="hero">
-            <div className="relative w-screen h-screen bg-black text-white">
+        <section className="h-screen w-full relative z-0 scroll-mt-[-10px]" id="hero">
+            <div className="relative h-full w-full bg-black text-white">
                 <div className="absolute inset-0 bg-cover bg-center">
                     <Swiper
                         spaceBetween={30}
