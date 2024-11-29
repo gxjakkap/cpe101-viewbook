@@ -13,6 +13,10 @@ import Week4 from "./components/weeks/week-4"
 import Week5 from "./components/weeks/week-5"
 import Week6 from "./components/weeks/week-6"
 import Week7 from "./components/weeks/week-7"
+import Week8 from "./components/weeks/week-8"
+import Week9 from "./components/weeks/week-9"
+import Week10 from "./components/weeks/week-10"
+import Week11 from "./components/weeks/week-11"
 
 
 function App() {
@@ -25,7 +29,11 @@ function App() {
         "week4",
         "week5",
         "week6",
-        "week7"
+        "week7",
+        "week8",
+        "week9",
+        "week10",
+        "week11"
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -95,6 +103,10 @@ function App() {
                 <Week5 />
                 <Week6 />
                 <Week7 />
+                <Week8 />
+                <Week9 />
+                <Week10 />
+                <Week11 />
             </div>
             <Dialog>
                 <DialogTrigger asChild>

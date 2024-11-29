@@ -9,30 +9,26 @@ export default function Week7() {
                     Week 7: Happy Coding 👨🏼‍💻😸
                 </h1>
                 <div className="flex flex-col gap-y-8 lg:gap-y-4 items-center mx-auto lg:mt-4 lg:items-start py-2">
-                    <div className="flex flex-col-reverse w-full lg:flex-row gap-x-12 gap-y-4 lg:gap-y-0">
+                    <div className="flex flex-col-reverse w-full lg:flex-row-reverse gap-x-12 gap-y-4 lg:gap-y-0">
                         <div className="flex flex-col gap-y-3 lg:mt-4 max-w-screen-md inter-regular">
                             <p className="text-lg lg:text-xl text-left">
-                                TBA
+                                &nbsp;&nbsp;&nbsp;&nbsp;Electronic major is one of branches that came from Electric major like us Computer major. Arduino is also one also one of the electronic platforms people start with when they try to build an electronic project. So, this week we get to learn what our niece has to learn(we have to learn it next semester too).
                             </p>
-                            {/* <p className="text-lg lg:text-xl text-left">
-                                TBA
-                            </p> */}
+                            <p className="text-lg lg:text-xl text-left">
+                                &nbsp;&nbsp;&nbsp;&nbsp;Arduino is an open-source electronics platform based on easy-to-use hardware and software. You can build a lot of creations from an Arduino board: LED lights that turn on periodically, An sound sensor that will turn the light on when it catches a sound, and more. In this class the instructors also give us challenges to do within class too.
+                            </p>
                         </div>
-                        {/* <div className="flex flex-col gap-y-1">
-                            <img className="max-h-[250px] object-contain drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week5/IMG_2220_be7u7y.jpg"/>
-                        </div> */}
+                        <div className="flex flex-col gap-y-1 lg:gap-y-3">
+                            <iframe
+                                src="https://player.cloudinary.com/embed/?public_id=cpe101viewbook%2Fweek7%2FIMG_1219_klnp7m&cloud_name=dynrld3nm&profile=new"
+                                width="480"
+                                height="270"
+                                allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+                                allowFullScreen
+                            />
+                            <img className="max-h-[250px] rounded-md object-contain drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week7/IMG_1215_lbyjoh.jpg"/>    
+                        </div>
                     </div>
-                    {/* <div className="flex flex-col-reverse w-full lg:flex-row gap-x-12 gap-y-4 lg:gap-y-0">
-                        <div className="flex flex-col gap-y-1">
-                            <img className="max-h-[250px] object-contain drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week5/firefox_UwBC9mBFyQ_wyvina.png"/>
-                            <p className="caveat-medium text-zinc-200 text-xl text-center">What Teachable Machine look like</p>
-                        </div>
-                        <div className="flex flex-col gap-y-3 lg:mt-4 max-w-screen-md inter-regular">
-                            <p className="text-lg lg:text-xl text-left">
-                                &nbsp;&nbsp;&nbsp;&nbsp; We used <a className="underline" href="https://teachablemachine.withgoogle.com/" target="_blank" rel="noopener,noreferrer">Teachable Machine</a> for this class. We get to train our AI to recognize and detect what items we are showing to them, or which of our fingers are showing to them.
-                            </p>
-                        </div>
-                    </div> */}
                 </div>
             </div>
             <GridPattern
@@ -42,7 +38,7 @@ export default function Week7() {
                 y={-1}
                 strokeDasharray={"4 2"}
                 className={cn(
-                "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
+                    "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]",
                 )}
             />
         </section>
