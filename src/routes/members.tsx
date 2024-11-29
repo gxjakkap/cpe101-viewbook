@@ -1,6 +1,3 @@
-import { Button } from "@/components/ui/button"
-import { X, XIcon } from "lucide-react"
-
 const mem = [
     {
         name: 'Gunt Jakkaphat',
