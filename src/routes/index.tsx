@@ -1,25 +1,26 @@
 import { useState, useEffect } from "react"
 
-import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "./components/ui/dialog"
-import { Switch } from "./components/ui/switch"
-import { Button } from "./components/ui/button"
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "../components/ui/dialog"
+import { Switch } from "../components/ui/switch"
+import { Button } from "../components/ui/button"
 
-import Hero from "./components/hero"
-import WhatsEE from "./components/whats-ee"
-import Week1 from "./components/weeks/week-1"
-import Week2 from "./components/weeks/week-2"
-import Week3 from "./components/weeks/week-3"
-import Week4 from "./components/weeks/week-4"
-import Week5 from "./components/weeks/week-5"
-import Week6 from "./components/weeks/week-6"
-import Week7 from "./components/weeks/week-7"
-import Week8 from "./components/weeks/week-8"
-import Week9 from "./components/weeks/week-9"
-import Week10 from "./components/weeks/week-10"
-import Week11 from "./components/weeks/week-11"
+import Hero from "../components/hero"
+import WhatsEE from "../components/whats-ee"
+import Week1 from "../components/weeks/week-1"
+import Week2 from "../components/weeks/week-2"
+import Week3 from "../components/weeks/week-3"
+import Week4 from "../components/weeks/week-4"
+import Week5 from "../components/weeks/week-5"
+import Week6 from "../components/weeks/week-6"
+import Week7 from "../components/weeks/week-7"
+import Week8 from "../components/weeks/week-8"
+import Week9 from "../components/weeks/week-9"
+import Week10 from "../components/weeks/week-10"
+import Week11 from "../components/weeks/week-11"
+import Week12 from "../components/weeks/week-12"
 
 
-function App() {
+export default function IndexPage() {
     const sectionIds = [
         "hero",
         "intro",
@@ -33,7 +34,8 @@ function App() {
         "week8",
         "week9",
         "week10",
-        "week11"
+        "week11",
+        "week12"
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -107,6 +109,7 @@ function App() {
                 <Week9 />
                 <Week10 />
                 <Week11 />
+                <Week12 />
             </div>
             <Dialog>
                 <DialogTrigger asChild>
@@ -138,5 +141,3 @@ function App() {
         </>
     )
 }
-
-export default App;

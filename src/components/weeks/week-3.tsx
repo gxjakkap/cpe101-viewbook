@@ -8,7 +8,7 @@ export default function Week3() {
                 <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-left redhat-medium">
                     Week 3: Computer Aided Design📜
                 </h1>
-                <div className="flex flex-col gap-y-8 items-center mx-auto lg:items-start py-2">
+                <div className="flex flex-col gap-y-8 items-center mx-auto lg:items-start 3xl:mt-20">
                     <div className="flex flex-col-reverse w-full lg:flex-row gap-x-12 gap-y-4 lg:gap-y-0">
                         <div className="flex flex-col gap-y-2 lg:gap-y-4">
                             <img className="lg:max-h-[370px] object-contain rounded-md drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week3/IMG_0406-cropped_h5wx1u.jpg"/>

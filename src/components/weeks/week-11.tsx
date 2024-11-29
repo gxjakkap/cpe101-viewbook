@@ -10,7 +10,7 @@ export default function Week11() {
         backgroundBlendMode: 'soft-light,screen'
     }
     return (
-        <section id="week11" className="relative min-h-screen pb-4 w-full text-neutral-900 flex flex-col gap-y-8 pt-16 px-8 lg:p-20 lg:scroll-mt-[-54px] 3xl:scroll-mt-0 lg:pb-4" style={bg}>
+        <section id="week11" className="relative min-h-screen pb-4 w-full text-neutral-900 flex flex-col gap-y-8 pt-16 px-8 lg:p-20" style={bg}>
             <div className="flex flex-col z-10 whitespace-pre-wrap">
                 <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-left redhat-medium scroll-mt-14">
                     Week 11: Linux and Virtual Machines 🐧
