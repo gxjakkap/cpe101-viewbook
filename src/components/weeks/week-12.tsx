@@ -31,9 +31,12 @@ export default function Week12() {
                             <img className="max-h-[250px] rounded-md object-contain drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week12/firefox_1saHZlqCP4_jgvvgl.png"/>
                             <p className="text-lg text-center">hackthissite's interface</p>
                         </div>
-                        <div className="flex flex-col gap-y-3 lg:mt-4 max-w-screen-md ">
+                        <div className="flex flex-col gap-y-3 lg:mt-4 max-w-screen-lg w-full">
                             <p className="text-lg lg:text-xl text-left">
                                 &nbsp;&nbsp;&nbsp;&nbsp;Week 12th is the last week we got to learn in this course; the rest of the course is presentation. This week is about Network Security. We get to learn about what it is and also what is the opposite of it. Network Security is an action that is used to protect valuable information. And the opposite of Network Security is ‘Cyber Threats’, like the name itself. Cyber Threats are the threat that can be caused on the internet. It can be a scam, a call center or even a hacker.
+                            </p>
+                            <p className="text-lg lg:text-xl text-left">
+                                &nbsp;&nbsp;&nbsp;&nbsp;After we learning about Cyber Security, we also get to try hacking something. By doing this, it can help you check the website if it is secure or not. We use <a href="http://hackthissite.org" target="_blank" rel="noopener noreferrer">hackthissite</a> to try hacking.
                             </p>
                         </div>
                     </div>

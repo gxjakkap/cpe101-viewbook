@@ -36,7 +36,7 @@ export default function Members() {
             {/* Content */}
             <div className="relative z-10 flex flex-col gap-y-6 pt-16 px-8 lg:p-20">
                 <h1 className="text-4xl lg:text-5xl text-center lg:text-left redhat-medium inline gap-x-3 items-center">
-                    B01 👨‍👨‍👦‍👦
+                    B01: Meet the team 👨‍👨‍👦‍👦
                 </h1>
                 <button 
                     className="absolute flex items-center justify-center top-15 right-24 w-12 h-12 rounded-md bg-transparent hover:bg-slate-500/10"
