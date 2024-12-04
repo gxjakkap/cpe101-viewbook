@@ -85,6 +85,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'ZF #2ndPixelus';
+  src: local('ZF #2ndPixelus'), url('./fonts/zf.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zf-regular {
+  font-family: 'ZF #2ndPixelus', system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 @layer base {
   :root {

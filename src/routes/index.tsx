@@ -18,6 +18,8 @@ import Week9 from "../components/weeks/week-9"
 import Week10 from "../components/weeks/week-10"
 import Week11 from "../components/weeks/week-11"
 import Week12 from "../components/weeks/week-12"
+import Week13 from "@/components/weeks/week13"
+import Week14 from "@/components/weeks/week14"
 
 
 export default function IndexPage() {
@@ -35,30 +37,13 @@ export default function IndexPage() {
         "week9",
         "week10",
         "week11",
-        "week12"
+        "week12",
+        "week13",
+        "week14"
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)
     const [customScrollBehavior, setCustomScrollBehavior] = useState(true)
-    /* const touchStartY = useRef(0)
-    const touchEndY = useRef(0)
-
-    const isAtEnd = (direction: "up" | "down") => {
-        const currentSection = document.getElementById(sectionIds[currentIndex])
-        if (!currentSection) return false
-
-        const scrollTop = currentSection.scrollTop
-        const scrollHeight = currentSection.scrollHeight
-        const clientHeight = currentSection.clientHeight
-
-        if (direction === "up") {
-            return scrollTop === 0
-        }
-        if (direction === "down") {
-            return scrollTop + clientHeight >= scrollHeight
-        }
-        return false;
-    } */
 
     const handleScroll = (e: React.WheelEvent) => {
         if (!customScrollBehavior) return
@@ -71,17 +56,6 @@ export default function IndexPage() {
             setCurrentIndex(currentIndex - 1)
         }
     }
-
-    /* const handleTouchStart = (e: React.TouchEvent) => {
-        touchStartY.current = e.touches[0].clientY
-    }
-
-    const handleTouchEnd = (e: React.TouchEvent) => {
-        touchEndY.current = e.changedTouches[0].clientY
-        const yDiff = touchStartY.current - touchEndY.current
-        if (yDiff > 50 && currentIndex < sectionIds.length - 1 && isAtEnd("up")) setCurrentIndex(currentIndex + 1)
-        else if (yDiff < -50 && currentIndex > 0 && isAtEnd("down")) setCurrentIndex(currentIndex - 1)
-    } */
 
     useEffect(() => {
         const section = document.getElementById(sectionIds[currentIndex]);
@@ -110,6 +84,8 @@ export default function IndexPage() {
                 <Week10 />
                 <Week11 />
                 <Week12 />
+                <Week13 />
+                <Week14 />
             </div>
             <Dialog>
                 <DialogTrigger asChild>

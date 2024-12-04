@@ -25,6 +25,7 @@ export default function Week9() {
                                 height="240"
                                 allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
                                 allowFullScreen
+                                className="mx-auto"
                             />
                             <p className="caveat-medium text-zinc-200 text-xl text-center">Challenge 1: Blind Maze (or something along this line iirc)</p>
                         </div>

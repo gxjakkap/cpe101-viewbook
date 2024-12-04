@@ -9,7 +9,7 @@ export default function Week7() {
                     Week 7: Happy Coding 👨🏼‍💻😸
                 </h1>
                 <div className="flex flex-col gap-y-8 lg:gap-y-4 items-center mx-auto lg:mt-4 lg:items-start py-2">
-                    <div className="flex flex-col-reverse w-full lg:flex-row-reverse gap-x-12 gap-y-4 lg:gap-y-0">
+                    <div className="flex flex-col w-full lg:flex-row-reverse gap-x-12 gap-y-4 lg:gap-y-0">
                         <div className="flex flex-col gap-y-3 lg:mt-4 max-w-screen-md inter-regular">
                             <p className="text-lg lg:text-xl text-left">
                                 &nbsp;&nbsp;&nbsp;&nbsp;Electronic major is one of branches that came from Electric major like us Computer major. Arduino is also one also one of the electronic platforms people start with when they try to build an electronic project. So, this week we get to learn what our niece has to learn(we have to learn it next semester too).
@@ -25,6 +25,7 @@ export default function Week7() {
                                 height="270"
                                 allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
                                 allowFullScreen
+                                className="mx-auto"
                             />
                             <img className="max-h-[250px] rounded-md object-contain drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week7/IMG_1215_lbyjoh.jpg"/>    
                         </div>

@@ -3,7 +3,7 @@ import GridPattern from "../ui/grid-pattern"
 
 export default function Week12() {
     return (
-        <section id="week12" className="relative consolas-regular min-h-screen pb-4 w-full bg-neutral-900 text-lime-400 flex flex-col gap-y-8 pt-16 px-8 lg:p-20 lg:scroll-mt-[-54px] 3xl:scroll-mt-0 lg:pb-4">
+        <section id="week12" className="relative consolas-regular min-h-screen pb-4 w-full bg-neutral-900 text-lime-400 flex flex-col gap-y-8 pt-16 px-8 lg:p-20 lg:scroll-mt-[-44px] 3xl:scroll-mt-0 lg:pb-4">
             <div className="flex flex-col z-10 whitespace-pre-wrap">
                 <h1 className="text-4xl lg:text-[2.5rem] text-center lg:text-left consolas-medium scroll-mt-14">
                     Week 12: Network Security 🧑🏼‍💻

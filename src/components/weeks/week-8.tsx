@@ -25,6 +25,7 @@ export default function Week8() {
                                 height="210"
                                 allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
                                 allowFullScreen
+                                className="mx-auto"
                             />
                             <p className="caveat-medium text-zinc-200 text-xl text-center">Gunt's robot first step after receiving it in week 3</p>
                         </div>
@@ -39,7 +40,7 @@ export default function Week8() {
                                     <img className="max-h-[150px] 3xl:max-h-[200px] rounded-md object-contain drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week8/IMG_0546_ywzwxo.jpg"/>
                                 </div>
                             </div>
-                            <p className="caveat-medium text-zinc-200 text-xl text-center">(Top) Ham's team and them during the test, (Bottom) Gunt's team and their robot</p>
+                            <p className="caveat-medium text-zinc-200 text-xl text-center">(Top) Ham's team and them during the test, (Bottom) Gunt and Naan's team and their robot</p>
                         </div>
                         <div className="flex flex-col gap-y-3 lg:mt-4 max-w-screen-md inter-regular">
                             <p className="text-lg lg:text-xl text-left">
