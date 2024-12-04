@@ -18,7 +18,7 @@ export default function Week10() {
                     <div className="flex flex-col-reverse w-full lg:flex-row-reverse gap-x-12 gap-y-4 lg:gap-y-0">
                         <div className="flex flex-col gap-y-3 max-w-screen-md inter-regular">
                             <p className="text-lg lg:text-xl text-left">
-                                &nbsp;&nbsp;&nbsp;&nbsp;Ah, after we finished the exam period, now it is time to play a game. Oh wait that&apos;s a typo. It&apos;s *<span className="font-bold">Make</span>* a game.
+                                &nbsp;&nbsp;&nbsp;&nbsp;Ah, after we finished the exam period, now it is time to play a game. Oh wait that&apos;s a typo. It&apos;s *<span className="font-bold">MAKE</span>* a game.
                             </p>
                             <p className="text-lg lg:text-xl text-left">
                                 &nbsp;&nbsp;&nbsp;&nbsp;Now we are back at studying period. This week we get to learn about how to make a video game. Playing a game is one of the usual hobbies you can see people have. So, this is a good chance to try and make a game that will make them enjoy it (hopefully).

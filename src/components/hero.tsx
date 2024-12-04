@@ -40,7 +40,7 @@ export default function Hero() {
                         <h1 className="text-5xl lg:text-6xl redhat-medium text-center">CPE101:</h1>
                         <h2 className="text-2xl lg:text-4xl redhat-bold text-center">Engineering Exploration</h2>
                         <p className="text-lg lg:text-xl inter-regular text-center text-gray-200 mt-6">A brief introduction to most of Computer Engineering principles. Here's what we experienced this year as a freshmen in this course.</p>
-                        <p className="text-lg lg:text-xl inter-regular text-center text-gray-200 mt-6">Made by <a href="/members" className="underline">B01 (Click here to meet us!)</a></p>
+                        <p className="text-lg lg:text-xl inter-regular text-center text-gray-200 mt-6">Made by <a href="/members" className="underline">B01 (Click here for a list of members)</a></p>
                     </div>
                     <p className="text-lg lg:text-xl inter-regular text-center">Scroll down to <span className="ml-2 text-base lg:text-lg press-start-2p-regular">Get Started!</span></p>
                     

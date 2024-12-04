@@ -18,8 +18,9 @@ import Week9 from "../components/weeks/week-9"
 import Week10 from "../components/weeks/week-10"
 import Week11 from "../components/weeks/week-11"
 import Week12 from "../components/weeks/week-12"
-import Week13 from "@/components/weeks/week13"
-import Week14 from "@/components/weeks/week14"
+import Week13 from "@/components/weeks/week-13"
+import Week14 from "@/components/weeks/week-14"
+import Week15 from "@/components/weeks/week-15"
 
 
 export default function IndexPage() {
@@ -39,7 +40,8 @@ export default function IndexPage() {
         "week11",
         "week12",
         "week13",
-        "week14"
+        "week14",
+        "week15"
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -86,6 +88,7 @@ export default function IndexPage() {
                 <Week12 />
                 <Week13 />
                 <Week14 />
+                <Week15 />
             </div>
             <Dialog>
                 <DialogTrigger asChild>

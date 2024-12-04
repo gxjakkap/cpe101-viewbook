@@ -37,7 +37,7 @@ export default function Week11() {
                         </div>
                         <div className="flex flex-col gap-y-3 lg:mt-4 max-w-screen-md inter-regular">
                             <p className="text-lg lg:text-xl text-left">
-                                &nbsp;&nbsp;&nbsp;&nbsp;In the lab part, the instructors taught us how to use <a href="https://ubuntu.com" className="underline">Ubuntu</a>, which is an open-source <span className="font-bold">Linux operating system</span>. They also teach us about how to make a web-server with Ubuntu, which can be hard to follow because they have a lot of steps you need to do, so you have to concentrate on what you need to do. This class also has an assignment; they want us to create a website in PHP capable of reading data from MySQL database and visualising it on the site.
+                                &nbsp;&nbsp;&nbsp;&nbsp;In the lab part, the instructors taught us how to use <a href="https://ubuntu.com" className="underline">Ubuntu</a>, which is an open-source <span className="font-bold">Linux operating system</span>. They also teach us about how to make a web-server with Ubuntu, which can be hard to follow because they have a lot of steps you need to do, so you have to concentrate on what you need to do. This class also has an assignment; they want us to create a website in <span className="font-bold">PHP</span> capable of reading data from <span className="font-bold">MySQL</span> database and visualizing it on the site.
                             </p>
                         </div>
                     </div>

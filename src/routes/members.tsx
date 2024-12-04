@@ -59,6 +59,7 @@ export default function Members() {
                         </div>
                     ))}
                 </div>
+                <p className="text-lg lg:text-xl text-center inter-regular">Also, this viewbook is <a className="underline" href="https://github.com/gxjakkap/cpe101-viewbook" target="_blank" rel="noopener noreferrer">opensourced</a>!</p>
             </div>
         </section>
     )
