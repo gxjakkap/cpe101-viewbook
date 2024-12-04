@@ -20,6 +20,9 @@ export default function Week15() {
                             <p className="text-lg lg:text-2xl text-left">
                                 &nbsp;&nbsp;&nbsp;&nbsp;<span className="font-bold">Thank you</span>, for taking your time to read through our viewbook. It has been quite a fun journey through this course.
                             </p>
+                            <p className="text-lg lg:text-2xl text-left">
+                                &nbsp;&nbsp;&nbsp;&nbsp;(If you're still looking for our members name, <a href="/members">click here</a>.)
+                            </p>
                         </div>
                     </div>
                 </div>
