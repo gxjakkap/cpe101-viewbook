@@ -11,16 +11,20 @@ export default function Week16() {
                 <div className="flex flex-col gap-y-8 items-center mx-auto lg:mx-0 lg:items-start 3xl:mt-20">
                     <div className="flex flex-col w-full lg:flex-row gap-x-12 gap-y-4 lg:gap-y-0">
                         <div className="flex flex-col gap-y-4 inter-regular">
-                            <p className="text-lg lg:text-2xl text-left">
+                            <p className="text-base lg:text-xl text-left">
                                 &nbsp;&nbsp;&nbsp;&nbsp;We completely forgot that we have never mentioned our final project in this viewbook. It has been in the cooking since <a href="#week9" className="underline">week 9</a>. 
                             </p>
-                            <p className="text-lg lg:text-2xl text-left">
+                            <p className="text-base lg:text-xl text-left">
                                 &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/gxjakkap/ubillize" target="_blank" rel="noopener noreferrer" className="underline">Ubillize</a> is a platform for apartments to manage and notify their tenants about rent and utility bills. Built with Next.js, TailwindCSS, TypeScript, and Docker.
                             </p>
-                            <p className="text-lg lg:text-2xl text-left">
+                            <p className="text-base lg:text-xl text-left">
                                 &nbsp;&nbsp;&nbsp;&nbsp;This week is our project showcase week. We set up a panel and TAs will walk around grading and providing feedback. We got a lot of feedbacks from this and even some complements. This project taught us a lot, especially that poor planning can come back and bite us. However it's also been fun developing this project.
                             </p>
                         </div>
+                    </div>
+                    <div className="flex flex-col gap-y-2 lg:gap-y-4 mx-auto w-full">
+                        <img className="lg:max-h-[300px] object-contain rounded-md drop-shadow-xl" src="https://res.cloudinary.com/dynrld3nm/image/upload/cpe101viewbook/week16/IMG_31472_iioxve.jpg"/>
+                        <p className="text-zinc-800 text-center">Here's our panel!</p>
                     </div>
                 </div>
             </div>
