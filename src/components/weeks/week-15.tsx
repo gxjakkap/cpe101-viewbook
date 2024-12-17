@@ -23,6 +23,9 @@ export default function Week15() {
                             <p className="text-lg lg:text-2xl text-left">
                                 &nbsp;&nbsp;&nbsp;&nbsp;(If you're still looking for our members name, <a href="/members">click here</a>.)
                             </p>
+                            <p className="text-lg lg:text-2xl text-left">
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span className="font-bold">Edit: </span>Okay actually it's not good bye yet as I was told. There's one more page please don't close out of this yet😭
+                            </p>
                         </div>
                     </div>
                 </div>
